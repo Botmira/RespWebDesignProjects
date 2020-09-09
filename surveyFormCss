@@ -1,0 +1,54 @@
+#title {
+   font-family: fantasy;
+   text-align: center;
+  color: white;
+}
+
+#description {
+  text-align: center;
+  color: black;
+}
+
+body   { 
+  background-image: url("https://live.staticflickr.com/643/20899661803_d721bf2196_n.jpg"); 
+  background-image: linear-gradient(42deg, transparent, teal);
+}
+
+footer {
+  background-image: linear-gradient(-42deg, transparent, teal);
+  padding: 40px;
+  font-family: fantasy;
+  text-align: center;
+  margin: 30px;
+}
+
+#description {
+  font-family: cursive;
+}
+
+#picture {
+  padding: 10px;
+  
+}
+
+#survey-form {
+  background-color: #AADBDD;
+  padding: 50px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  padding-left: 300px;
+}
+
+#write-text{
+   font-family: cursive
+}
+
+.submit-class {
+  display: block;
+  padding: 0.75rem;
+  background: #97DB98;
+  border-radius: 2px;
+}
