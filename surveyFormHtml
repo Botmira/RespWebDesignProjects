@@ -1,0 +1,75 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+  </head>
+  <body>
+    <h1 id="title">survey about your experiences with babies</h1>
+    <p id="description">We would love to hear about your life as parents. Please answer the questions below!</p>
+    <aside id="two"></aside>
+    <div>
+      <img id="picture" src="https://live.staticflickr.com/643/20899661803_d721bf2196_n.jpg" width="320" height="213" alt="Baby">
+    </div>
+    <div class="form">
+    <form id="survey-form">
+      <p><label id="name-label" for="name">Please insert your name: </label>
+        <input id="name" type="text" placeholder="NAME" required></p>
+      <p><label id="email-label" for="email">Please insert your email: </label>
+        <input id="email" type="email" placeholder="EMAIL" required></p>
+      <p><label id="number-label" for="number">Please rate your experience: </label>
+        <input id="number" placeholder="insert number" type="number" min="1" max="10" value="5"></p>
+       <label for="dropdown">Choose your role:</label>
+<select id="dropdown" name="dropdown">
+  <option value="dad">dad</option>
+  <option value="mom">mom</option>
+  <option value="granny">granny</option>
+  <option value="aunti">aunti</option>
+</select> 
+      <p>Please share how many children you have:</p>
+  <fieldset id="radio-buttons">
+    <input type="radio" id="one" name="children" value="one">
+    <label for="one"> one</label> 
+    <input type="radio" id="two" name="children" value="two">
+    <label for="two"> two</label>
+    <input type="radio" id="three" name="children" value="three">
+    <label for="three"> three</label> 
+    <input type="radio" id="more" name="children" value="more">
+    <label for="more"> more</label>
+  </fieldset id="checkboxes">
+      <h3>What are the milestones of your children, what they can already do:</h3> 
+  <fieldset>
+    <ul>
+      <li> 
+        <label>
+          <input type="checkbox" name="milestone" value="walking">
+          walking
+        </label>
+      </li>
+      <li> 
+        <label>
+           <input type="checkbox" name="milestone" value="talking">
+           talking
+        </label>
+      </li>
+      <li>  
+        <label>
+          <input type="checkbox" name="milestone" value="no diapers">
+          no diapers
+        </label>
+      </li>
+    </ul> 
+  </fieldset> 
+      <div id="write-text"><p>Do you have any addional information?</p>
+       <label for="add-info">Please write them down here:</label><br>
+
+<textarea id="add-info" name="textarea" rows="4" cols="60">
+My life changed, when I first saw my baby, because...
+        </textarea></div>
+      <button id="submit" type="submit" name="action" value="0" class="submit-class">submit survey</button>
+    </form>
+    </div>
+    <footer>made with love by Mira</footer>
+  </body>
