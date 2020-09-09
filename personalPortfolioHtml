@@ -1,0 +1,55 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio</title>
+  </head>
+  
+ <body>
+   <header>
+     <nav id="navbar">
+    <ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#projects">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul> 
+     </nav>
+   </header>
+   <section id="about">
+   <div id="welcome-section">
+     <h1>Welcome to my portfolio page</h1>
+     <p>Hello, my name is Mira and I am a developer</p>
+   </div>
+   </section>
+   <div class="container">
+   <section id="contact">
+     <h2>Feel free to contact me</h2>
+     <a id="profile-link" href="https://www.freecodecamp.org/fcc6778992b-e518-40a6-a9a8-6d7cf30347a2" target="_blank"><img src="https://live.staticflickr.com/65535/48418152346_c1c12a120c_w.jpg" width="400" height="276" alt="Alita"></a>
+     </div>
+    </section>
+   <div class="container">
+   <section id="projects">
+     <h2>FreeCodeCamp Projects</h2>
+     <div class="project-tile">
+       <h3>project #1 tribute page</h3>
+       <p><a href="https://codepen.io/miraknicki/full/poypjmJ" target="_blank"><img src="https://live.staticflickr.com/4790/39795987695_9c51266b32_w.jpg" width="400" height="228" alt="Maria Montessori"></a></p>
+     </div>
+     <div class="project-tile">
+       <h3>project #2 survey form</h3>
+       <p><a href="https://codepen.io/miraknicki/full/YzqYQbL" target="_blank"><img src="https://live.staticflickr.com/1667/25782521954_642052e750_w.jpg" width="400" height="267" alt="baby"></a></p>
+     </div>
+     <div class="project-tile">
+       <h3>project #3 product landing page</h3>
+       <p><a href="https://codepen.io/miraknicki/full/WNwdazX" target="_blank"><img src="https://live.staticflickr.com/3766/14126653768_0ea5e2269f_w.jpg" width="400" height="267" alt="Yoga"></a></p>
+     </div>
+      <div class="project-tile">
+       <h3>project #4 technical documentation page</h3>
+        <p><a href="https://codepen.io/miraknicki/full/dyMJaZb" target="_blank"><img src="https://live.staticflickr.com/3335/3293759838_12a7907fb1_w.jpg" width="399" height="380" alt="programmer"></a></p>
+     </div>
+   </section>
+   </div>
+   <footer id="home">bye bye and all the best</footer>
+  </body>
