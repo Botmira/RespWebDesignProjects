@@ -1,0 +1,58 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product landing page</title>
+  </head>
+  <header id="header">
+    <h1>Your Yoga Store</h1>
+    <img id="header-img" src="https://live.staticflickr.com/4111/5169903711_5ef16456e0_s.jpg" width="75" height="75" alt="Yoga">
+  <nav id="nav-bar">
+      <ul>
+        <li ><a class="nav-link" href="#yoga-mats"> yoga mats</a></li>
+        <li ><a class="nav-link" href="#meditation"> meditation</a></li>
+        <li ><a class="nav-link" href="#yoga-lifestyle"> yoga lifestyle</a></li>
+        <li ><a class="nav-link" href="#video-section"> video about yoga</a></li>
+        <li ><a class="nav-link" href="#products"> discover products</a></li>
+        <li ><a class="nav-link" href="#contact-form"> contact us</a></li>
+      </ul>
+   </nav>
+  </header>
+  <body>
+    <div id="yoga-mats">
+      <h3>Yoga Mats</h3>
+      <img src="https://live.staticflickr.com/65535/32141896445_b784010ba5_w.jpg" width="400" height="267" alt="Yogamat">
+    </div>
+    <div id="meditation">
+      <h3>Meditation</h3>
+      <img src="https://live.staticflickr.com/5009/5367330998_389bb1bdcc_w.jpg" width="300" height="400" alt="pillows for meditation">
+    </div>
+    <div id="yoga-lifestyle">
+      <h3>Yoga Lifestyle</h3>
+      <img src="https://live.staticflickr.com/347/31611370896_9d5a8a710a_w.jpg" width="400" height="400" alt="Yoga">
+    </div>
+        <div id="video-section">
+      <h3>Video about Yoga</h3>
+          
+         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/8jzBjFd-8YE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+ 
+          
+    </div>
+    <div id="products">
+      <h3>Discover our products</h3>
+      <img src="https://live.staticflickr.com/334/31803285733_c7e1a05fbe_w.jpg" width="400" height="400" alt="Yoga">
+    </div>
+    <div id="contact-form">
+      <h3>Contact us:</h3>
+      <form id="form" action="https://www.freecodecamp.com/email-submit" >
+        <p><label id="email-label" for="email">Please insert your email: </label>
+        <input id="email" type="email" name="email" placeholder="EMAIL" required></p><a href="https://www.freecodecamp.com/email-submit">
+        <input id="submit"  type="submit" name="submit" value="submit" class="submit-class">
+      </form>
+    </div>
+  </body>
+  
+  <footer>this page was created by Mira</footer>
