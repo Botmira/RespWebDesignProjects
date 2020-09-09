@@ -1,0 +1,28 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tribute page</title>
+  </head>
+  <body>
+    <div id="main">
+    <h1 id="title">Maria Montessori</h1>
+      <div id="maria-div">
+        <img id="maria" src="https://live.staticflickr.com/3002/2481112578_aff7186810_n.jpg" width="225" height="304" alt="225px-Maria_Montessori">
+      </div>
+          <p>Today we want to honour this woman. She was one of the first women who finished her studies in medicine with a doctor.</p>
+      <div id="img-div">
+        <img id="image" src="https://live.staticflickr.com/587/22501315155_29b5791a58_b.jpg" width="1024" height="682" alt"picture of Montessori education">
+        <p id="img-caption">picture of the Montessori education style at home</p>
+      </div>
+      <div id="tribute-info">
+        <article>This tribute page exists only to show off the great achivements of a woman, who not all of you may know.</article>
+      </div>
+      If you want to learn more about her education system, click here <a  id="tribute-link" target="_blank" href="https://de.wikipedia.org/wiki/Maria_Montessori">for the wikipedia entry.</a>
+
+    </div>
+  </body>
+</html>
