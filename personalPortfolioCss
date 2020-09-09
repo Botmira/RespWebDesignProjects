@@ -1,0 +1,74 @@
+body {
+  background-color: #FFF6EB;
+}
+header {
+  background-image: linear-gradient(42deg, transparent, #cc64b7);
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer {
+  background-image: linear-gradient(-42deg, transparent, #cc64b7);
+  text-align: center;
+}
+
+#welcome-section {
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  color: #cc64b7;
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;
+  font-size: 1.5em;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: linear-gradient(-42deg, transparent, #cc64b7);
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #cc64b7;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+@media (min-width: 45em) {
+  nav ul {	
+    flex-direction: row;  
+  }
+  nav li {
+    font-size: 2em;
+  }  
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
