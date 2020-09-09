@@ -1,0 +1,36 @@
+body {
+  background-color: #FFF6EB;
+   }
+
+#navbar {
+    position: fixed;
+  
+  
+  }
+
+#navbar a {
+  display: block;
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-section {
+  margin-left: 400px;
+}
+
+.header {
+  font-family: monospace;
+  padding: 10px;
+  font-size: 1.8em;
+}
+
+@media (min-width: 45em) {
+  nav ul {	
+    flex-direction: row;  
+  }
+  nav li {
+    font-size: 2em;
+  }  
+}
