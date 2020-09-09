@@ -1,0 +1,22 @@
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+body {
+  background-color: teal;
+  text-align: center;
+}
+
+#title {
+  color: white;
+  font-size: 2.5em;
+  font-family: cursive;
+  background-color: orange;
+  text-align: center;
+  border: thin solid transparent;
+}
